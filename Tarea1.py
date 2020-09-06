@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import funciones
+import funciones #Se importa el modulo creado anteriormente
 
 def P(n,k):#Se define una función la cual calcula la probabilidad de obtener k veces un resultado al lanzar una moneda(cara o sello) al realizarlo n veces 
     return funciones.Binomial(n,k)/(2**n)#Se emplea la formula dada para retornar la probabilidad de obtener un resultado k veces después hacer n experimentos
